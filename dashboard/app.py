@@ -18,7 +18,7 @@ def get_db_connection():
     return mysql.connector.connect(**db_config)
 
 # --- Routes ---
-
+#test 123 new thing see changes
 #  VIEW: Get all records
 @app.route('/api/records', methods=['GET'])
 def get_records():
